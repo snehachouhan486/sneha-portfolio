@@ -1,0 +1,86 @@
+/* Navbar background */
+.navbar {
+background: linear-gradient(90deg, #0f2027, #203a43, #2c5364);
+  padding: 10px 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Brand (logo/name) */
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+/* Nav links */
+.nav-link {
+  color: #ffffff !important;
+  margin: 0 10px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 1.1rem;
+  transition: all 0.3s ease;
+}
+
+/* Hover effect */
+.nav-link:hover {
+  color: #000 !important;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 5px 10px;
+}
+
+/* Active link (optional if you use NavLink later) */
+.nav-link.active {
+  background-color: #966868;
+  color: #000 !important;
+  border-radius: 20px;
+}
+
+/* Offcanvas styling */
+.custom-offcanvas {
+  background-color: black !important;
+  color: white;
+}
+
+.btn-outline-success {
+  background: linear-gradient(90deg, #09e1ec, #3fa986);
+  color: #8f2872 !important;
+  border: none !important;
+  border-radius: 20px;
+}
+
+.btn-outline-success:hover {
+  background: linear-gradient(90deg, #8f282d, #0b0c0c);
+}
+
+.offcanvas-title {
+  font-weight: bold;
+}
+
+/* Mobile spacing */
+@media (max-width: 768px) {
+  .nav-link {
+    margin: 10px 0;
+  }
+}
+
+.nav-head{
+/* background:
+
+linear-gradient(
+
+135deg,
+
+#5ef2ff,
+
+#7c5cff
+
+);
+-webkit-background-clip:text;
+
+-webkit-text-fill-color:transparent; */
+
+color: #0df3e0;
+}

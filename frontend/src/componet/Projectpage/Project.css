@@ -1,0 +1,103 @@
+.Card-img{
+
+height:35vh;
+
+border:4px solid transparent;
+
+border-radius:12px;
+
+transition:.4s ease;
+
+}
+.mycontain{
+    background:#205060;
+
+
+
+color:white;
+}
+
+
+/* IMAGE HOVER GLOW */
+
+.Card-img:hover{
+
+transform:scale(1.05);
+
+box-shadow:
+
+0 0 20px #5ef2ff60,
+
+0 0 35px #7c5cff40;
+
+}
+
+
+/* CARD BODY TEXT */
+
+.Cbody{
+
+color:#c9d4ff;
+
+}
+
+
+/* CARD TITLE */
+
+.Card-title{
+
+text-align:center;
+
+font-family:"Playfair Display", serif;
+
+background: #c9d4ff;
+
+}
+
+
+/* CARD CONTAINER */
+
+.scard{
+
+border-radius:16px;
+
+transition:transform .35s ease, box-shadow .35s ease;
+
+background:
+
+linear-gradient(140deg,#0b0f2f,#1a1148,#0c1230);
+
+border:1px solid #1f2a44;
+
+}
+
+
+/* CARD HOVER EFFECT */
+
+.scard:hover{
+
+transform:translateY(-10px) scale(1.02);
+
+box-shadow:
+
+0 10px 25px #5ef2ff30,
+
+0 15px 40px #7c5cff40;
+
+border-color:#5ef2ff;
+
+}
+
+.heading{
+    background:
+
+linear-gradient(
+90deg,
+#5ef2ff,
+#7c5cff,
+#ff4ecd
+);
+-webkit-background-clip:text;
+
+-webkit-text-fill-color:transparent;
+}

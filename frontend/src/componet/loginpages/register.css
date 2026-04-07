@@ -1,0 +1,189 @@
+/* full page background */
+
+.reg-bg {
+  min-height: 100vh;
+  width:90%;
+  max-width:1320px;
+  border-radius:20px;
+  /* padding:50px 60px; */
+  margin:auto;
+    margin-bottom: 40px;
+
+background: #205960;
+
+
+  /* color: rgb(248, 245, 245); */
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+}
+
+
+/* card styling */
+
+.reg-card {
+
+  width: 100%;
+  max-width: 400px;
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+background: #030808;
+
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255,255,255,0.2);
+
+  box-shadow: 0 8px 32px rgba(0,0,0,0.25);
+
+  transition: 0.3s ease;
+}
+
+
+/* hover effect */
+
+.reg-card:hover {
+  transform: translateY(-5px);
+}
+
+
+/* input fields */
+
+.form-control {
+  background: rgba(255,255,255,0.1);
+  border: none;
+  color: white;
+  padding: 10px 12px;
+}
+
+.form-control::placeholder {
+  color: #ddd;
+}
+
+
+/* input focus */
+
+.form-control:focus {
+  background: rgba(255,255,255,0.2);
+  color: white;
+  box-shadow: none;
+}
+
+
+/* input icons */
+
+.input-group-text {
+  background: rgba(255,255,255,0.2);
+  border: none;
+  color: white;
+}
+
+
+/* register button */
+
+button.btn-success {
+
+  background: linear-gradient(
+    45deg,
+   #28cf95, #3fa986
+  );
+
+  border: none;
+
+  font-weight: 600;
+
+  letter-spacing: 1px;
+
+  transition: 0.3s;
+}
+
+
+/* button hover */
+
+button.btn-success:hover {
+
+  background: linear-gradient(
+    45deg,
+    #035d33,
+    #0b0c0c
+  );
+
+  transform: scale(1.03);
+}
+
+
+/* login link */
+
+a {
+  color: #fff;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #6c0223;
+}
+
+
+
+/* ========================= */
+/* MOBILE RESPONSIVE */
+/* ========================= */
+
+@media(max-width:576px){
+
+  .reg-card{
+    padding:22px;
+    border-radius:16px;
+    background: #0b0c0c;
+  }
+
+  .reg-bg{
+    padding:15px;
+  }
+
+}
+
+
+
+/* ========================= */
+/* TABLET RESPONSIVE */
+/* ========================= */
+
+@media(max-width:768px){
+
+  .reg-card{
+    max-width:90%;
+    background: #0b0c0c;
+  }
+
+}
+
+
+
+/* ========================= */
+/* LARGE SCREEN OPTIMIZATION */
+/* ========================= */
+
+@media(min-width:1400px){
+
+  .reg-card{
+    max-width:450px;
+    padding:40px;
+    background: #0b0c0c;
+  }
+
+}
+
+
+.login{
+  color:#131313
+}
+
+.card-body{
+  background: #0b0c0c;
+}

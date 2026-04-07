@@ -1,0 +1,25 @@
+body{
+  background:
+  linear-gradient(
+    140deg,
+    #49b5b6,
+    #4bbcba,
+    #388c92,
+    #5fbfce
+  );
+}
+
+/* GLOBAL CONTAINER SYSTEM */
+
+.container{
+
+max-width:1300px;
+
+margin:auto;
+
+padding-left:clamp(20px,6vw,80px);
+
+padding-right:clamp(20px,6vw,80px);
+
+}
+

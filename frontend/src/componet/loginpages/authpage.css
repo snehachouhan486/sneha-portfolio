@@ -1,0 +1,187 @@
+/* background gradient */
+
+.auth-bg {
+  min-height: 100vh;
+  width:90%;
+  max-width:1320px;
+  border-radius:20px;
+  /* padding:50px 60px; */
+  margin:auto;
+    margin-bottom: 40px;
+  background: #205960;
+
+  color: white;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  padding: 20px;
+}
+
+/* main card */
+
+.auth-card {
+
+  padding: 30px;
+
+  border-radius: 20px;
+
+  background: rgba(26, 12, 12, 0.08);
+
+  backdrop-filter: blur(12px);
+
+  border: 1px solid rgba(255,255,255,0.2);
+
+  box-shadow: 0 8px 25px rgba(0,0,0,0.25);
+
+  /* color: white; */
+
+  transition: 0.3s;
+}
+
+
+/* hover lift effect */
+
+.auth-card:hover {
+
+  transform: translateY(-5px);
+
+}
+
+
+/* input styling */
+
+.form-control {
+
+  background: rgba(255,255,255,0.12);
+
+  border: none;
+
+  color: white;
+
+}
+
+
+/* placeholder color */
+
+.form-control::placeholder {
+
+  color: #ddd;
+
+}
+
+
+/* input focus */
+
+.form-control:focus {
+
+  background: rgba(255,255,255,0.2);
+
+  box-shadow: none;
+
+  color: white;
+
+}
+
+
+/* input icons */
+
+.input-group-text {
+
+  background: rgba(255,255,255,0.2);
+
+  border: none;
+
+  color: white;
+
+}
+
+
+/* login button */
+
+.toggle-link.btn-success {
+
+  background: linear-gradient(
+    45deg,
+    #3caeae,
+   
+  );
+
+  border: none;
+
+  font-weight: 600;
+
+  letter-spacing: 1px;
+
+  transition: 0.3s;
+
+}
+
+
+/* button hover */
+
+.toggle-link.btn-success:hover {
+
+  background: linear-gradient(
+    45deg,
+    #288f5c,
+    #0b0c0c
+  );
+
+  transform: scale(1.03);
+
+}
+
+
+/* register link */
+
+.toggle-link {
+
+  color: #fff;
+
+  font-weight: 500;
+
+}
+
+
+.toggle-link:hover {
+
+  color: #420107;
+
+}
+
+
+/* table styling */
+
+.table {
+
+  background: rgba(255,255,255,0.1);
+
+  color: white;
+
+  border-radius: 12px;
+
+  overflow: hidden;
+
+}
+
+
+.table thead {
+
+  background: rgba(255,255,255,0.25);
+
+}
+
+
+/* swal popup custom */
+
+.change-swal {
+
+  border-radius: 18px;
+
+}
+
+.register{
+  color:#151515
+}
