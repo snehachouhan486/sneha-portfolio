@@ -5,7 +5,7 @@ import About from './pages/About';
 import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
-import AuthPage from './component/loginpages/AuthPage'
+import Authpage from './component/loginpages/Authpage'
 import Register from './component/loginpages/Register'
 
 function App() {
@@ -21,7 +21,7 @@ function App() {
             <Route path="/skills" element={<Skills/>}></Route>
             <Route path="/projects" element={<Projects/>}></Route>
             <Route path="/contacts" element={<Contact/>}></Route>
-            <Route path="/sign" element={<AuthPage/>}></Route>
+            <Route path="/sign" element={<Authpage/>}></Route>
             <Route path="/register" element={<Register/>}></Route>
 
      </Routes>
