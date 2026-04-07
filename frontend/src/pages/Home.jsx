@@ -1,10 +1,10 @@
 import React from 'react'
 
 
-import Navigationbar from "../componet/navbar/Navigationbar";
-import Profile from "../componet/Profile/Profile";
-import Footer from "../componet/Footers/Footer";
-import Service from "../componet/Services/Service";
+import Navigationbar from "../component/navbar/Navigationbar";
+import Profile from "../component/Profile/Profile";
+import Footer from "../component/Footers/Footer";
+import Service from "../component/Services/Service";
 
 
 

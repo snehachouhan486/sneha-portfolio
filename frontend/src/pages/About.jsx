@@ -1,7 +1,7 @@
 import React from "react";
-import Navigationbar from '../componet/navbar/Navigationbar'
-import Footer from '../componet/Footers/Footer'
-import AboutPage from '../componet/aboutpage/AboutPage'
+import Navigationbar from '../component/navbar/Navigationbar'
+import Footer from '../component/Footers/Footer'
+import AboutPage from '../component/aboutpage/AboutPage'
 
 function About(){
     return (

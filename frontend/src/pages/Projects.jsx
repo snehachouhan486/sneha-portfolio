@@ -1,7 +1,7 @@
 import React from "react";
-import Navigationbar from '../componet/navbar/Navigationbar'
-import Footer from '../componet/Footers/Footer'
-import Project from '../componet/Projectpage/Project'
+import Navigationbar from '../component/navbar/Navigationbar'
+import Footer from '../component/Footers/Footer'
+import Project from '../component/Projectpage/Project'
 
 
 function Projects() {

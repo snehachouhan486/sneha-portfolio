@@ -5,8 +5,8 @@ import About from './pages/About';
 import Skills from './pages/Skills';
 import Contact from './pages/Contact';
 import Projects from './pages/Projects';
-import AuthPage from './componet/loginpages/AuthPage'
-import Register from './componet/loginpages/Register'
+import AuthPage from './component/loginpages/AuthPage'
+import Register from './component/loginpages/Register'
 
 function App() {
   return (

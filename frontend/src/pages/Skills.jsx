@@ -1,8 +1,8 @@
 import React from "react";
-import Navigationbar from '../componet/navbar/Navigationbar'
-import Footer from '../componet/Footers/Footer'
-import Carsal from '../componet/Carsal/Carsal'
-import Cardsskill from '../componet/Skills/Cardsskill'
+import Navigationbar from '../component/navbar/Navigationbar'
+import Footer from '../component/Footers/Footer'
+import Carsal from '../component/Carsal/Carsal'
+import Cardsskill from '../component/Skills/Cardsskill'
 function Skills() {
   return (
     <>

@@ -1,7 +1,7 @@
 import React from "react";
-import Navigationbar from '../componet/navbar/Navigationbar'
-import Contacts from '../componet/Contactpage/Contacts'
-import Footer from "../componet/Footers/Footer";
+import Navigationbar from '../component/navbar/Navigationbar'
+import Contacts from '../component/Contactpage/Contacts'
+import Footer from "../component/Footers/Footer";
 function Contact() {
   return (
     <>
