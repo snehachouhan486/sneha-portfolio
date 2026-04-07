@@ -1,13 +1,13 @@
 import React from "react";
 import Navigationbar from '../component/navbar/Navigationbar'
 import Footer from '../component/Footers/Footer'
-import AboutPage from '../component/aboutpage/AboutPage'
+import Aboutpage from '../component/aboutpage/Aboutpage'
 
 function About(){
     return (
         <>
         <Navigationbar/>
-        <AboutPage/>
+        <Aboutpage/>
         <Footer/>
         
         </>
